@@ -137,8 +137,8 @@ class FRUIT:
         self.x = random.randint(0, cell_number - 1)
         self.y = random.randint(0, cell_number - 1)
         self.pos = Vector2(self.x, self.y)
-        self.fruit_color = (126, 166, 114)
-        self.super_fruit_color = (69, 92, 62)
+        self.fruit_color = (255, 33, 33)
+        self.super_fruit_color = (170, 29, 5)
         self.super_fruit = random.randint(0, 9)
 
     def draw_fruit(self):
